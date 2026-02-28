@@ -1,0 +1,191 @@
+const translations = {
+    ko: {
+        // Header
+        nav: {
+            about: 'About',
+            products: 'Products',
+            research: 'Research',
+            team: 'Team',
+            contact: 'Contact',
+            getInTouch: 'Get in Touch',
+        },
+        // Hero
+        hero: {
+            badge: 'Emotion Tech × ESG Research Lab',
+            title1: 'Together,',
+            title2: 'at the Zenith.',
+            description: 'ZenithUs Labs는 우리(Us)와 지구(Earth) 모두의 정점을 향해, 감정기술과 ESG의 혁신적 융합으로 지속가능한 미래를 설계합니다.',
+            cta1: 'Learn More',
+            cta2: 'Contact Us',
+        },
+        // About
+        about: {
+            label: 'About Us',
+            title1: '감정의 정점에서,',
+            title2: '우리와 지구를 함께.',
+            description: '제니스어스(ZenithUs)는 중의적 이름입니다. Zenith + Us(우리), 그리고 Zenith + Earth(어스/지구). 우리는 사람과 지구 모두의 정점을 향한 여정을 상징하며, 감정기술과 ESG 융합 연구를 통해 지속가능한 미래를 설계하는 글로벌 싱크탱크입니다.',
+            values: [
+                { emoji: '💚', title: '감정의 권리', description: '감정은 사적인 것이지만, 고립되지 않습니다. 우리는 감정의 권리를 회복하고 보호합니다.' },
+                { emoji: '🌍', title: '공공가치 실현', description: '지속가능한 공공가치는 감정으로부터 시작되어야 한다고 믿습니다.' },
+                { emoji: '🔗', title: '감정-기술 연결', description: '기술은 감정과 인간을 잇는 다리가 되어야 합니다.' },
+            ],
+            visionLabel: 'Vision',
+            visionTitle: 'Together at the Zenith',
+            visionDesc: '우리(Us)와 지구(Earth), 함께 정점을 향해. 감정기술과 ESG 융합으로 사람과 지구 모두가 지속가능하고 공감 가능한 미래를 만들어갑니다.',
+            missionLabel: 'Mission',
+            missionTitle: '감정기술 × ESG 융합 연구',
+            missionDesc: '인공지능으로 감정기술과 ESG의 혁신적 융합을 통해 지속가능하고 공감 가능한 미래를 설계합니다. 감정의 권리를 회복시키고, 새로운 사회적 가치 시스템을 만들어갑니다.',
+        },
+        // Products
+        products: {
+            label: 'Our Focus',
+            title: '우리가 만드는 미래',
+            items: [
+                { title: '지속가능한 세상' },
+                { title: '건강한 삶의 설계' },
+                { title: '더 스마트한 일상' },
+            ],
+            teaser: 'Stay tuned.',
+        },
+        // Research
+        research: {
+            label: 'Research Areas',
+            title: '연구 영역',
+            description: '감정기술과 ESG를 축으로, 인간과 사회의 지속가능한 발전을 위한 핵심 연구를 수행합니다.',
+            areas: [
+                { number: '01', title: 'Emotion Intelligence', subtitle: '감정 인식 및 분석', description: '멀티모달 AI를 활용한 감정 인식 기술과 사회정서적 인터페이스를 연구합니다.', tags: ['Sentiment Analysis', 'Affective Computing', 'Emotion UX'] },
+                { number: '02', title: 'Carbon Neutrality', subtitle: '탄소중립 연구', description: '일상 속 탄소 감축 데이터를 수집·분석하고, 개인과 조직의 탄소중립 실천을 지원합니다.', tags: ['Carbon Tracking', 'Net Zero', 'Green Data'] },
+                { number: '03', title: 'ESG Analytics', subtitle: 'ESG 데이터 분석', description: 'AI 기반 ESG 평가 모델을 개발하고 기업·공공부문의 지속가능경영 전략을 연구합니다.', tags: ['ESG Scoring', 'Sustainability Report', 'Impact Measurement'] },
+                { number: '04', title: 'Convergence Research', subtitle: '융합 연구', description: '감정기술과 ESG의 교차점에서 새로운 융합 연구 영역을 개척합니다.', tags: ['Interdisciplinary', 'Future Design', 'Public Value'] },
+            ],
+        },
+        // Team
+        team: {
+            label: 'Our Team',
+            title: '함께 만드는 팀',
+            equation: 'ZenithUs = Zenith + Us + Earth',
+        },
+        // Contact
+        contact: {
+            label: 'Contact',
+            title: '함께 시작해요.',
+            description: 'ZenithUs Labs와 연구 협력, 프로젝트 제안, 또는 궁금한 점이 있으시면 언제든지 연락해 주세요.',
+            nameLabel: 'Name',
+            namePlaceholder: '이름',
+            emailLabel: 'Email',
+            emailPlaceholder: '이메일',
+            subjectLabel: 'Subject',
+            subjectPlaceholder: '제목',
+            messageLabel: 'Message',
+            messagePlaceholder: '내용을 입력해주세요',
+            send: 'Send Message',
+        },
+        // Footer
+        footer: {
+            tagline1: '우리(Us)와 지구(Earth)의 정점을 향해,',
+            tagline2: '함께 새로운 세상을 열어갑니다.',
+            company: 'Company',
+            resources: 'Resources',
+            legal: 'Legal',
+            blog: 'Blog',
+            publications: 'Publications',
+            faq: 'FAQ',
+            privacy: 'Privacy Policy',
+            terms: 'Terms of Service',
+            copyright: 'ZenithUs Labs. All rights reserved.',
+            slogan: 'Together at the Zenith',
+        },
+    },
+    en: {
+        nav: {
+            about: 'About',
+            products: 'Products',
+            research: 'Research',
+            team: 'Team',
+            contact: 'Contact',
+            getInTouch: 'Get in Touch',
+        },
+        hero: {
+            badge: 'Emotion Tech × ESG Research Lab',
+            title1: 'Together,',
+            title2: 'at the Zenith.',
+            description: 'ZenithUs Labs designs a sustainable future through the innovative convergence of emotion technology and ESG — for Us and for the Earth.',
+            cta1: 'Learn More',
+            cta2: 'Contact Us',
+        },
+        about: {
+            label: 'About Us',
+            title1: 'At the Zenith,',
+            title2: 'Us and Earth together.',
+            description: 'ZenithUs is a name with dual meaning: Zenith + Us (together) and Zenith + Earth. We symbolize the journey toward the peak for both people and the planet — a global think tank designing a sustainable future through emotion technology and ESG convergence research.',
+            values: [
+                { emoji: '💚', title: 'Right to Emotions', description: 'Emotions are personal, but never isolated. We restore and protect the right to emotional well-being.' },
+                { emoji: '🌍', title: 'Public Value', description: 'We believe sustainable public value must begin with emotions.' },
+                { emoji: '🔗', title: 'Emotion-Tech Bridge', description: 'Technology should be the bridge connecting emotions and humanity.' },
+            ],
+            visionLabel: 'Vision',
+            visionTitle: 'Together at the Zenith',
+            visionDesc: 'For Us and for the Earth, reaching the zenith together. Creating a sustainable and empathetic future through the convergence of emotion technology and ESG.',
+            missionLabel: 'Mission',
+            missionTitle: 'Emotion Tech × ESG Research',
+            missionDesc: 'Designing a sustainable and empathetic future through the innovative convergence of AI-powered emotion technology and ESG. Restoring the right to emotions and building new social value systems.',
+        },
+        products: {
+            label: 'Our Focus',
+            title: 'Building the Future',
+            items: [
+                { title: 'A Sustainable World' },
+                { title: 'Designing Healthy Lives' },
+                { title: 'Smarter Everyday' },
+            ],
+            teaser: 'Stay tuned.',
+        },
+        research: {
+            label: 'Research Areas',
+            title: 'Research',
+            description: 'We conduct core research for the sustainable development of people and society, with emotion technology and ESG as our pillars.',
+            areas: [
+                { number: '01', title: 'Emotion Intelligence', subtitle: 'Emotion Recognition & Analysis', description: 'Researching emotion recognition technology and socio-emotional interfaces using multimodal AI.', tags: ['Sentiment Analysis', 'Affective Computing', 'Emotion UX'] },
+                { number: '02', title: 'Carbon Neutrality', subtitle: 'Carbon Neutral Research', description: 'Collecting and analyzing daily carbon reduction data to support carbon neutrality practices for individuals and organizations.', tags: ['Carbon Tracking', 'Net Zero', 'Green Data'] },
+                { number: '03', title: 'ESG Analytics', subtitle: 'ESG Data Analysis', description: 'Developing AI-based ESG evaluation models and researching sustainable management strategies for corporate and public sectors.', tags: ['ESG Scoring', 'Sustainability Report', 'Impact Measurement'] },
+                { number: '04', title: 'Convergence Research', subtitle: 'Interdisciplinary Research', description: 'Pioneering new convergence research areas at the intersection of emotion technology and ESG.', tags: ['Interdisciplinary', 'Future Design', 'Public Value'] },
+            ],
+        },
+        team: {
+            label: 'Our Team',
+            title: 'Built Together',
+            equation: 'ZenithUs = Zenith + Us + Earth',
+        },
+        contact: {
+            label: 'Contact',
+            title: "Let's get started.",
+            description: "Whether it's research collaboration, project proposals, or general inquiries — we'd love to hear from you.",
+            nameLabel: 'Name',
+            namePlaceholder: 'Your name',
+            emailLabel: 'Email',
+            emailPlaceholder: 'Your email',
+            subjectLabel: 'Subject',
+            subjectPlaceholder: 'Subject',
+            messageLabel: 'Message',
+            messagePlaceholder: 'Write your message here',
+            send: 'Send Message',
+        },
+        footer: {
+            tagline1: 'Toward the zenith for Us and Earth,',
+            tagline2: 'opening a new world together.',
+            company: 'Company',
+            resources: 'Resources',
+            legal: 'Legal',
+            blog: 'Blog',
+            publications: 'Publications',
+            faq: 'FAQ',
+            privacy: 'Privacy Policy',
+            terms: 'Terms of Service',
+            copyright: 'ZenithUs Labs. All rights reserved.',
+            slogan: 'Together at the Zenith',
+        },
+    },
+}
+
+export type Translations = typeof translations.ko
+export default translations

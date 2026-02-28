@@ -1,0 +1,14 @@
+<!-- ZENITHUS Logo Placeholder -->
+<!-- 실제 로고 이미지로 교체 예정 -->
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Three dots representing ZEN, NEO, VERA -->
+  <circle cx="20" cy="8" r="4" fill="#22543d"/>  <!-- ZEN - Green -->
+  <circle cx="30" cy="5" r="4" fill="#eab308"/>  <!-- NEO - Gold -->
+  <circle cx="40" cy="8" r="4" fill="#7c3aed"/>  <!-- VERA - Purple -->
+  
+  <!-- Z Letter -->
+  <path d="M10 20 L50 20 L15 45 L50 45" stroke="#22543d" stroke-width="8" fill="none"/>
+  
+  <!-- Ellipse ring -->
+  <ellipse cx="30" cy="35" rx="25" ry="15" stroke="#22543d" stroke-width="3" fill="none"/>
+</svg> 
