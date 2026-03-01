@@ -32,7 +32,7 @@ const Team: React.FC = () => {
         >
           <div className="inline-block px-10 py-8 rounded-3xl bg-neutral-950 text-white">
             <p className="text-2xl font-bold tracking-tight mb-1">Vera H. Lee</p>
-            <p className="text-sm text-brand-400 font-medium tracking-wide">Founder@Director / Ph.D</p>
+            <p className="text-sm text-brand-400 font-medium tracking-wide">Founder & Director / Ph.D.</p>
           </div>
         </motion.div>
 
