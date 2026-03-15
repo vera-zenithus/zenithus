@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Leaf, Heart, Sparkles } from 'lucide-react'
+import { Leaf, Heart, Sparkles, ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import translations from '../i18n/translations'
 
@@ -23,12 +24,25 @@ const Products: React.FC = () => {
                     {t.items.map((item, index) => {
                         const Icon = icons[index]
                         return (
-                            <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }} className="group text-center py-16 px-8 rounded-3xl border border-neutral-100 hover:shadow-xl hover:border-neutral-200 transition-all duration-500">
-                                <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${gradients[index]} flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                                    <Icon className="w-7 h-7 text-white" />
-                                </div>
-                                <h3 className="text-2xl font-bold text-neutral-900">{item.title}</h3>
-                            </motion.div>
+                            <Link to={(item as any).href || '#'} key={item.title}>
+                                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }} className="group relative overflow-hidden text-center py-16 px-8 rounded-3xl border border-neutral-100 hover:shadow-xl hover:border-brand-200 transition-all duration-500 bg-white">
+                                    <div className="absolute inset-0 bg-gradient-to-br from-brand-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-0"></div>
+                                    <div className="relative z-10">
+                                        <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${gradients[index]} flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md`}>
+                                            <Icon className="w-7 h-7 text-white" />
+                                        </div>
+                                        <p className="text-sm font-semibold text-brand-600 mb-2 opacity-0 transform translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                                            {(item as any).appName}
+                                        </p>
+                                        <h3 className="text-2xl font-bold text-neutral-900 group-hover:text-brand-800 transition-colors duration-300">{item.title}</h3>
+                                        <div className="mt-6 flex justify-center opacity-0 transform translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 delay-100">
+                                            <span className="inline-flex items-center gap-2 text-sm font-medium text-brand-600">
+                                                Discover <ArrowRight className="w-4 h-4" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </motion.div>
+                            </Link>
                         )
                     })}
                 </div>
