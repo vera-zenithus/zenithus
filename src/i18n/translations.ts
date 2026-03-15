@@ -112,8 +112,8 @@ const translations = {
             faqs: [
                 {
                     app: 'zentalk',
-                    question: '젠톡 알람 설정은 어떻게 하나요?',
-                    answer: '앱 설정 내 알림 메뉴에서 개별 대화방 또는 전체 알림을 끄고 켤 수 있습니다.',
+                    question: '자세한 감정 분석 리포트는 언제 나오나요?',
+                    answer: '현재는 공감과 위로를 더하는 익명 대화 서비스에 집중하고 있으며, 보다 정교한 감정 분석 리포트 기능은 충분한 데이터 학습 후 추후 업데이트를 통해 제공될 예정입니다.',
                 },
                 {
                     app: 'greenstep',
@@ -271,10 +271,10 @@ const translations = {
         // App Landing Pages
         zentalk: {
             title: '젠톡 (ZenTalk)',
-            description: '감정을 나누는 가장 따뜻한 방법, 젠톡을 만나보세요.',
-            feature1: 'AI 감정 분석',
-            feature2: '익명 보장 대화',
-            feature3: '감정 리포트',
+            description: '감정을 나누는 가장 따뜻한 방법, 젠톡에서 오로지 내 감정에 집중해 보세요.',
+            feature1: '자유로운 감정 표현',
+            feature2: '안전한 익명 소통',
+            feature3: '공감과 연결',
         },
         greenstep: {
             title: '그린스텝 (GreenStep)',
@@ -396,8 +396,8 @@ const translations = {
             faqs: [
                 {
                     app: 'zentalk',
-                    question: 'How do I set my ZenTalk notifications?',
-                    answer: 'You can toggle notifications for individual chats or globally in the App Settings menu.',
+                    question: 'When will detailed emotion reports be available?',
+                    answer: 'We are currently focusing on providing a safe, empathetic anonymous chat service. Advanced AI emotion reports will be included in future updates once we have gathered sufficient learning data.',
                 },
                 {
                     app: 'greenstep',
@@ -555,10 +555,10 @@ These terms are governed by the laws of the Republic of Korea. In the event of l
         // App Landing Pages
         zentalk: {
             title: 'ZenTalk',
-            description: 'The warmest way to share your feelings. Meet ZenTalk.',
-            feature1: 'AI Emotion Analysis',
+            description: 'The warmest way to share your feelings. Focus solely on your emotions in a safe space.',
+            feature1: 'Free Expression',
             feature2: 'Anonymous Chat',
-            feature3: 'Emotion Reports',
+            feature3: 'Empathetic Connection',
         },
         greenstep: {
             title: 'GreenStep',
