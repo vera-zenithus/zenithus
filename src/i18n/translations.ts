@@ -232,6 +232,42 @@ const translations = {
 본 방침은 2026년 3월 15일부터 적용됩니다.`,
             },
         },
+        // Terms of Service Page
+        terms: {
+            title: '이용약관',
+            lastUpdated: '최종 수정일: 2026년 3월 15일',
+            common: {
+                title: 'ZenithUs Labs 통합 서비스 이용약관',
+                content: `제1조 (목적)
+본 약관은 ZenithUs Labs(이하 "회사")가 제공하는 모든 접속 가능한 서비스(젠톡, 그린스텝, 캡쳐제니스 등)의 이용 조건 및 절차, 이용자와 회사의 권리, 의무, 책임 사항 등을 통합하여 규정함을 목적으로 합니다.
+
+제2조 (용어의 정의)
+1. "서비스"란 구현되는 단말기(PC, 휴대형 단말기 등)와 상관없이 회사가 제공하는 모든 앱 및 웹 서비스를 의미합니다.
+2. "이용자"란 회사의 서비스에 접속하여 본 약관에 따라 회사가 제공하는 서비스를 받는 회원을 말합니다.
+
+제3조 (서비스의 제공 및 변경)
+회사는 기술적 필요나 운영상 필요에 따라 제공하고 있는 서비스의 내용을 변경할 수 있으며, 이 경우 변경 내용을 사전에 공지합니다.
+
+제4조 (이용자의 의무)
+이용자는 관련 법령, 본 약관의 규정, 이용안내 및 서비스와 관련하여 공지한 주의사항을 준수하여야 하며, 기타 회사의 업무에 방해되는 행위를 해서는 안 됩니다.
+특히 다음 행위를 금지합니다:
+- 타인의 정보 도용 또는 허위 정보 입력
+- 회사 및 기타 제3자의 저작권 등 지적재산권에 대한 침해
+- 회사 및 기타 제3자의 명예를 손상시키거나 업무를 방해하는 행위
+
+제5조 (각 서비스별 특칙)
+각 개별 서비스 이용 시 다음 사항이 적용됩니다.
+1. [젠톡(ZenTalk)]: AI 기반 대화형 서비스 특성상, 회사는 AI가 제공하는 정보의 완벽한 정확성, 신뢰성, 적법성을 보증하지 않으며, 이로 인해 발생한 직/간접적 손해에 대해 책임지지 않습니다.
+2. [그린스텝(GreenStep)]: 위치 기반 및 건강 데이터(걸음 수)를 활용하여 탄소 저감 활동을 측정합니다. 외부 플랫폼(Apple Health 등)의 연동 오류로 인한 데이터 누락에 대해서는 회사가 책임지지 않습니다.
+3. [캡쳐제니스(CaptureZenith)]: AI 이미지 분석 결과를 보장하지 않으며, 업로드한 이미지로 인한 저작권/초상권 침해 분쟁의 책임은 전적으로 이용자에게 있습니다.
+
+제6조 (면책 조항)
+회사는 천재지변, 전시, 사변 또는 이에 준하는 불가항력으로 인하여 서비스를 제공할 수 없는 경우에는 서비스 제공에 관한 책임이 면제됩니다.
+
+제7조 (준거법 및 재판관할)
+본 약관은 대한민국 법률에 따라 규율되며, 서비스 이용으로 발생한 분쟁에 대해 소송이 제기되는 경우 회사의 본점 소재지를 관할하는 법원을 전속 관할법원으로 합니다.`,
+            },
+        },
         // App Landing Pages
         zentalk: {
             title: '젠톡 (ZenTalk)',
@@ -478,6 +514,42 @@ Article 6 — Contact
 • Email: zenithuslabs@gmail.com
 
 This policy is effective as of March 15, 2026.`,
+            },
+        },
+        // Terms of Service Page
+        terms: {
+            title: 'Terms of Service',
+            lastUpdated: 'Last Updated: March 15, 2026',
+            common: {
+                title: 'ZenithUs Labs Universal Terms of Service',
+                content: `Article 1 (Purpose)
+These terms and conditions govern the use of all services (including ZenTalk, GreenStep, and CaptureZenith) provided by ZenithUs Labs ("the Company") and define the rights, obligations, and responsibilities of the users and the Company in an integrated manner.
+
+Article 2 (Definitions)
+1. "Service" refers to all applications and web services provided by the Company, regardless of the device used to access them.
+2. "User" refers to any individual accessing the Company's services and receiving services under these terms.
+
+Article 3 (Service Provision and Modification)
+The Company may modify the contents of the services provided based on technical or operational needs. In such cases, the changes will be announced in advance.
+
+Article 4 (User Obligations)
+Users must comply with relevant laws, these terms, and any notices provided regarding the service. Users must not engage in any activities that interfere with the Company's operations.
+Specifically, the following actions are prohibited:
+- Theft of others' information or entering false information
+- Infringement of intellectual property rights, including copyrights of the Company and third parties
+- Actions that damage the reputation or interfere with the business of the Company or third parties
+
+Article 5 (Special Provisions for Specific Services)
+The following provisions apply when using specific individual services:
+1. [ZenTalk]: Due to the nature of AI-based conversational services, the Company does not guarantee perfect accuracy, reliability, or legality of the information provided by the AI, and shall not be liable for any direct or indirect damages arising from it.
+2. [GreenStep]: This service measures carbon reduction activities using location-based and health data (step count). The Company is not responsible for missing data caused by integration errors with external platforms (e.g., Apple Health).
+3. [CaptureZenith]: The Company does not guarantee the results of AI image analysis. The user bears full responsibility for any copyright or portrait right disputes arising from uploaded images.
+
+Article 6 (Limitation of Liability)
+The Company is exempt from liability for any failure to provide services due to natural disasters, war, or other equivalent force majeure events.
+
+Article 7 (Governing Law and Jurisdiction)
+These terms are governed by the laws of the Republic of Korea. In the event of litigation arising from disputes over the use of the service, the court with jurisdiction over the Company's headquarters shall have exclusive jurisdiction.`,
             },
         },
         // App Landing Pages
