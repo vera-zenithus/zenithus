@@ -7,18 +7,22 @@ import translations from '../i18n/translations'
 const Contact: React.FC = () => {
   const { lang } = useLang()
   const t = translations[lang].contact
+  const supportT = translations[lang].support
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' })
+  const [selectedApp, setSelectedApp] = useState('')
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const emailBody = `From: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\n${formData.message}`.trim()
-    const mailtoLink = `mailto:zenithuslabs@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(emailBody)}`
+    const appName = selectedApp ? (supportT.apps as any)[selectedApp] : 'General'
+    const emailBody = `From: ${formData.name}\nEmail: ${formData.email}\nApp: ${appName}\nSubject: ${formData.subject}\n\n${formData.message}`.trim()
+    const mailtoLink = `mailto:zenithuslabs@gmail.com?subject=${encodeURIComponent(`[${appName}] ${formData.subject}`)}&body=${encodeURIComponent(emailBody)}`
     window.open(mailtoLink, '_blank')
     setFormData({ name: '', email: '', subject: '', message: '' })
+    setSelectedApp('')
   }
 
   return (
@@ -42,6 +46,20 @@ const Contact: React.FC = () => {
 
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}>
             <form onSubmit={handleSubmit} className="bg-white rounded-3xl p-8 border border-neutral-100 shadow-sm">
+              <div className="mb-5">
+                <label className="block text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-2">{supportT.selectApp}</label>
+                <select 
+                  name="app" 
+                  value={selectedApp} 
+                  onChange={(e) => setSelectedApp(e.target.value)}
+                  className="w-full px-4 py-3 bg-neutral-50 rounded-xl border-0 text-neutral-900 placeholder-neutral-400 focus:ring-2 focus:ring-brand-500 focus:bg-white transition-all text-sm appearance-none"
+                >
+                  <option value="">{supportT.selectAppPlaceholder}</option>
+                  {Object.entries(supportT.apps).map(([key, name]) => (
+                    <option key={key} value={key}>{name as string}</option>
+                  ))}
+                </select>
+              </div>
               <div className="grid md:grid-cols-2 gap-5 mb-5">
                 <div>
                   <label className="block text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-2">{t.nameLabel}</label>
@@ -66,6 +84,7 @@ const Contact: React.FC = () => {
               </button>
             </form>
           </motion.div>
+
         </div>
       </div>
     </section>

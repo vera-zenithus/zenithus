@@ -1,29 +1,29 @@
-import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Products from './components/Products'
-import Research from './components/Research'
-import Team from './components/Team'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Home from './components/Home'
+import Support from './pages/Support'
+import Privacy from './pages/Privacy'
+import Landing from './pages/Landing'
 import { LangProvider } from './context/LangContext'
 
 function App() {
   return (
     <LangProvider>
-      <div className="min-h-screen bg-white">
-        <Header />
-        <main>
-          <Hero />
-          <About />
-          <Products />
-          <Research />
-          <Team />
-          <Contact />
-        </main>
-        <Footer />
-      </div>
+      <Router>
+        <div className="min-h-screen bg-white">
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/support" element={<Support />} />
+              <Route path="/:appName/privacy" element={<Privacy />} />
+              <Route path="/:appName" element={<Landing />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
     </LangProvider>
   )
 }
