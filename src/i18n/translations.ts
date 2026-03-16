@@ -43,7 +43,7 @@ const translations = {
             items: [
                 { title: '지속가능한 세상', appName: 'GreenStep', href: '/greenstep' },
                 { title: '건강한 삶의 설계', appName: 'ZenTalk', href: '/zentalk' },
-                { title: '더 스마트한 일상', appName: 'CaptureZenith', href: '/capturezenith' },
+                { title: '더 스마트한 일상', appName: 'ZenGrip', href: '/zengrip' },
             ],
             teaser: 'Stay tuned.',
         },
@@ -106,7 +106,7 @@ const translations = {
             apps: {
                 zentalk: '젠톡 (ZenTalk)',
                 greenstep: '그린스텝 (GreenStep)',
-                capturezenith: '캡쳐제니스 (CaptureZenith)',
+                zengrip: '젠그립 (ZenGrip)',
                 other: '기타 문의',
             },
             faqs: [
@@ -121,8 +121,8 @@ const translations = {
                     answer: '건강 앱(Apple Health / Google Fit)과의 연동 권한이 허용되어 있는지 확인해 주세요.',
                 },
                 {
-                    app: 'capturezenith',
-                    question: '사진이 저장되지 않아요.',
+                    app: 'zengrip',
+                    question: '이미지가 저장되지 않아요.',
                     answer: '앱의 카메라 및 앨범 접근 권한이 허용되어 있는지 확인해 주세요.',
                 },
             ],
@@ -200,8 +200,8 @@ const translations = {
 
 본 방침은 2026년 3월 15일부터 적용됩니다.`,
             },
-            capturezenith: {
-                title: '캡쳐제니스(CaptureZenith) 개인정보 처리방침',
+            zengrip: {
+                title: '젠그립(ZenGrip) 개인정보 처리방침',
                 content: `ZenithUs Labs(이하 '회사')는 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 및 관련 법령을 준수합니다.
 
 제1조 (수집하는 개인정보 항목)
@@ -239,7 +239,7 @@ const translations = {
             common: {
                 title: 'ZenithUs Labs 통합 서비스 이용약관',
                 content: `제1조 (목적)
-본 약관은 ZenithUs Labs(이하 "회사")가 제공하는 모든 접속 가능한 서비스(젠톡, 그린스텝, 캡쳐제니스 등)의 이용 조건 및 절차, 이용자와 회사의 권리, 의무, 책임 사항 등을 통합하여 규정함을 목적으로 합니다.
+본 약관은 ZenithUs Labs(이하 "회사")가 제공하는 모든 접속 가능한 서비스(젠톡, 그린스텝, 젠그립 등)의 이용 조건 및 절차, 이용자와 회사의 권리, 의무, 책임 사항 등을 통합하여 규정함을 목적으로 합니다.
 
 제2조 (용어의 정의)
 1. "서비스"란 구현되는 단말기(PC, 휴대형 단말기 등)와 상관없이 회사가 제공하는 모든 앱 및 웹 서비스를 의미합니다.
@@ -259,7 +259,7 @@ const translations = {
 각 개별 서비스 이용 시 다음 사항이 적용됩니다.
 1. [젠톡(ZenTalk)]: AI 기반 대화형 서비스 특성상, 회사는 AI가 제공하는 정보의 완벽한 정확성, 신뢰성, 적법성을 보증하지 않으며, 이로 인해 발생한 직/간접적 손해에 대해 책임지지 않습니다.
 2. [그린스텝(GreenStep)]: 위치 기반 및 건강 데이터(걸음 수)를 활용하여 탄소 저감 활동을 측정합니다. 외부 플랫폼(Apple Health 등)의 연동 오류로 인한 데이터 누락에 대해서는 회사가 책임지지 않습니다.
-3. [캡쳐제니스(CaptureZenith)]: AI 이미지 분석 결과를 보장하지 않으며, 업로드한 이미지로 인한 저작권/초상권 침해 분쟁의 책임은 전적으로 이용자에게 있습니다.
+3. [젠그립(ZenGrip)]: AI OCR 분석 결과를 보장하지 않으며, 업로드한 이미지로 인한 저작권/초상권 침해 분쟁의 책임은 전적으로 이용자에게 있습니다.
 
 제6조 (면책 조항)
 회사는 천재지변, 전시, 사변 또는 이에 준하는 불가항력으로 인하여 서비스를 제공할 수 없는 경우에는 서비스 제공에 관한 책임이 면제됩니다.
@@ -283,12 +283,12 @@ const translations = {
             feature2: '탄소 저감량 확인',
             feature3: '나만의 환경 일기',
         },
-        capturezenith: {
-            title: '캡쳐제니스 (CaptureZenith)',
-            description: '당신의 소중한 찰나를 제니스로 기록하고 간직하세요.',
-            feature1: '순간의 기록',
-            feature2: '나만의 갤러리',
-            feature3: '감정 아카이빙',
+        zengrip: {
+            title: '젠그립 (ZenGrip)',
+            description: '이미지를 수집하고, 정리하고, OCR로 텍스트를 추출하세요.',
+            feature1: '이미지 수집',
+            feature2: '폴더 관리',
+            feature3: 'OCR 텍스트 인식',
         },
     },
     en: {
@@ -331,7 +331,7 @@ const translations = {
             items: [
                 { title: 'A Sustainable World', appName: 'GreenStep', href: '/greenstep' },
                 { title: 'Designing Healthy Lives', appName: 'ZenTalk', href: '/zentalk' },
-                { title: 'Smarter Everyday', appName: 'CaptureZenith', href: '/capturezenith' },
+                { title: 'Smarter Everyday', appName: 'ZenGrip', href: '/zengrip' },
             ],
             teaser: 'Stay tuned.',
         },
@@ -390,7 +390,7 @@ const translations = {
             apps: {
                 zentalk: 'ZenTalk',
                 greenstep: 'GreenStep',
-                capturezenith: 'CaptureZenith',
+                zengrip: 'ZenGrip',
                 other: 'Other Inquiry',
             },
             faqs: [
@@ -405,8 +405,8 @@ const translations = {
                     answer: 'Please ensure you have granted sync permissions to either Apple Health or Google Fit.',
                 },
                 {
-                    app: 'capturezenith',
-                    question: 'Photos are not being saved.',
+                    app: 'zengrip',
+                    question: 'Images are not being saved.',
                     answer: 'Please check if camera and photo gallery permissions are enabled for the app.',
                 },
             ],
@@ -484,9 +484,9 @@ Article 6 — Contact
 
 This policy is effective as of March 15, 2026.`,
             },
-            capturezenith: {
-                title: 'CaptureZenith Privacy Policy',
-                content: `ZenithUs Labs ("we", "our") is committed to protecting your privacy. This policy explains how CaptureZenith collects, uses, and safeguards your information.
+            zengrip: {
+                title: 'ZenGrip Privacy Policy',
+                content: `ZenithUs Labs ("we", "our") is committed to protecting your privacy. This policy explains how ZenGrip collects, uses, and safeguards your information.
 
 Article 1 — Information We Collect
 • Required: Email address, username
@@ -523,7 +523,7 @@ This policy is effective as of March 15, 2026.`,
             common: {
                 title: 'ZenithUs Labs Universal Terms of Service',
                 content: `Article 1 (Purpose)
-These terms and conditions govern the use of all services (including ZenTalk, GreenStep, and CaptureZenith) provided by ZenithUs Labs ("the Company") and define the rights, obligations, and responsibilities of the users and the Company in an integrated manner.
+These terms and conditions govern the use of all services (including ZenTalk, GreenStep, and ZenGrip) provided by ZenithUs Labs ("the Company") and define the rights, obligations, and responsibilities of the users and the Company in an integrated manner.
 
 Article 2 (Definitions)
 1. "Service" refers to all applications and web services provided by the Company, regardless of the device used to access them.
@@ -543,7 +543,7 @@ Article 5 (Special Provisions for Specific Services)
 The following provisions apply when using specific individual services:
 1. [ZenTalk]: Due to the nature of AI-based conversational services, the Company does not guarantee perfect accuracy, reliability, or legality of the information provided by the AI, and shall not be liable for any direct or indirect damages arising from it.
 2. [GreenStep]: This service measures carbon reduction activities using location-based and health data (step count). The Company is not responsible for missing data caused by integration errors with external platforms (e.g., Apple Health).
-3. [CaptureZenith]: The Company does not guarantee the results of AI image analysis. The user bears full responsibility for any copyright or portrait right disputes arising from uploaded images.
+3. [ZenGrip]: The Company does not guarantee the results of AI OCR analysis. The user bears full responsibility for any copyright or portrait right disputes arising from uploaded images.
 
 Article 6 (Limitation of Liability)
 The Company is exempt from liability for any failure to provide services due to natural disasters, war, or other equivalent force majeure events.
@@ -567,12 +567,12 @@ These terms are governed by the laws of the Republic of Korea. In the event of l
             feature2: 'Carbon Footprint',
             feature3: 'Personal Eco-log',
         },
-        capturezenith: {
-            title: 'CaptureZenith',
-            description: 'Record and cherish your precious moments at the zenith.',
-            feature1: 'Capture Moments',
-            feature2: 'Personal Gallery',
-            feature3: 'Emotion Archiving',
+        zengrip: {
+            title: 'ZenGrip',
+            description: 'Capture images, organize into folders, and extract text with OCR.',
+            feature1: 'Image Capture',
+            feature2: 'Folder Organization',
+            feature3: 'OCR Text Recognition',
         },
     },
 }

@@ -16,9 +16,9 @@ const appMeta: Record<string, { icon: React.ReactNode; color: string; emoji: str
         color: 'bg-green-50 text-green-600',
         emoji: '🌿',
     },
-    capturezenith: {
+    zengrip: {
         icon: <Camera className="w-6 h-6" />,
-        color: 'bg-amber-50 text-amber-600',
+        color: 'bg-green-50 text-green-600',
         emoji: '📸',
     },
 }

@@ -6,6 +6,8 @@ import Support from './pages/Support'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
 import Landing from './pages/Landing'
+import ZenTalkLanding from './pages/ZenTalkLanding'
+import ZenGripLanding from './pages/ZenGripLanding'
 import { LangProvider } from './context/LangContext'
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/support" element={<Support />} />
               <Route path="/terms" element={<Terms />} />
+              <Route path="/zentalk" element={<ZenTalkLanding />} />
+              <Route path="/zengrip" element={<ZenGripLanding />} />
               <Route path="/:appName/privacy" element={<Privacy />} />
               <Route path="/:appName" element={<Landing />} />
             </Routes>
