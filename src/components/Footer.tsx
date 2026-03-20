@@ -22,8 +22,8 @@ const Footer: React.FC = () => {
       { name: t.faq, href: '/support' },
     ],
     legal: [
-      { name: t.privacy, href: '/zentalk/privacy' },
-      { name: t.terms, href: '#' },
+      { name: t.privacy, href: '/privacy' },
+      { name: t.terms, href: '/terms' },
     ],
   }
 

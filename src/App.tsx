@@ -8,6 +8,7 @@ import Terms from './pages/Terms'
 import Landing from './pages/Landing'
 import ZenTalkLanding from './pages/ZenTalkLanding'
 import ZenGripLanding from './pages/ZenGripLanding'
+import GreenStepLanding from './pages/GreenStepLanding'
 import { LangProvider } from './context/LangContext'
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
               <Route path="/terms" element={<Terms />} />
               <Route path="/zentalk" element={<ZenTalkLanding />} />
               <Route path="/zengrip" element={<ZenGripLanding />} />
+              <Route path="/greenstep" element={<GreenStepLanding />} />
+              <Route path="/privacy" element={<Privacy />} />
               <Route path="/:appName/privacy" element={<Privacy />} />
               <Route path="/:appName" element={<Landing />} />
             </Routes>

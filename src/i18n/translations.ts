@@ -206,18 +206,18 @@ const translations = {
 
 제1조 (수집하는 개인정보 항목)
 • 필수: 이메일 주소, 닉네임
-• 이미지 데이터: 사용자가 촬영 또는 선택한 이미지 (AI 분석 후 즉시 파기)
+• 이미지 데이터: 사용자가 촬영 또는 선택한 이미지 (기기 내 OCR 처리, 외부 서버 전송 없음)
 • 메타데이터: 촬영 날짜, 위치 태그 (사용자 동의 시)
 • 자동 수집: 앱 사용 로그, 기기 정보
 
 제2조 (개인정보의 수집 및 이용 목적)
-• AI 이미지 분석 및 감정 태깅 서비스 제공
+• 기기 내 OCR 텍스트 인식 서비스 제공
 • 디지털 아카이브 기능 제공
 • 서비스 품질 개선
 
 제3조 (개인정보의 보유 및 이용 기간)
 • 회원 탈퇴 시 즉시 파기
-• AI 분석에 사용된 이미지: 분석 완료 후 즉시 파기 (저장되지 않음)
+• 이미지는 사용자 기기에 로컬 저장되며, 탈퇴 시 삭제됩니다
 
 제4조 (개인정보의 제3자 제공)
 • 회사는 이용자의 동의 없이 개인정보를 제3자에게 제공하지 않습니다.
@@ -490,18 +490,18 @@ This policy is effective as of March 15, 2026.`,
 
 Article 1 — Information We Collect
 • Required: Email address, username
-• Image data: Photos captured or selected by the user (used for AI analysis, then immediately deleted)
+• Image data: Photos captured or selected by the user (processed locally on-device via OCR; not transmitted to external servers)
 • Metadata: Date taken, location tags (with user consent)
 • Automatically collected: App usage logs, device information
 
 Article 2 — How We Use Your Information
-• Providing AI image analysis and emotion tagging services
+• Providing on-device OCR text recognition services
 • Providing digital archive features
 • Improving service quality
 
 Article 3 — Data Retention
 • Upon account deletion, all personal data is immediately destroyed
-• Images used for AI analysis: Deleted immediately after processing (never stored permanently)
+• Images stored by the user are retained locally on-device and deleted upon account deletion
 
 Article 4 — Third-Party Sharing
 • We do not share your personal information with third parties without your consent.
