@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
     e.preventDefault()
     const appName = selectedApp ? (supportT.apps as any)[selectedApp] : 'General'
     const emailBody = `From: ${formData.name}\nEmail: ${formData.email}\nApp: ${appName}\nSubject: ${formData.subject}\n\n${formData.message}`.trim()
-    const mailtoLink = `mailto:zenithuslabs@gmail.com?subject=${encodeURIComponent(`[${appName}] ${formData.subject}`)}&body=${encodeURIComponent(emailBody)}`
+    const mailtoLink = `mailto:hello@zenithuslabs.com?subject=${encodeURIComponent(`[${appName}] ${formData.subject}`)}&body=${encodeURIComponent(emailBody)}`
     window.open(mailtoLink, '_blank')
     setFormData({ name: '', email: '', subject: '', message: '' })
     setSelectedApp('')
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="text-sm text-neutral-400">Email</p>
-                <a href="mailto:zenithuslabs@gmail.com" className="text-neutral-900 font-semibold hover:text-brand-600 transition-colors">zenithuslabs@gmail.com</a>
+                <a href="mailto:hello@zenithuslabs.com" className="text-neutral-900 font-semibold hover:text-brand-600 transition-colors">hello@zenithuslabs.com</a>
               </div>
             </div>
           </motion.div>

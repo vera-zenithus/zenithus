@@ -19,7 +19,7 @@ const Support: React.FC = () => {
         e.preventDefault()
         const appName = selectedApp ? (t.apps as any)[selectedApp] : 'General'
         const emailBody = `From: ${formData.name}\nEmail: ${formData.email}\nApp: ${appName}\n\n${formData.message}`.trim()
-        const mailtoLink = `mailto:zenithuslabs@gmail.com?subject=${encodeURIComponent(`[Support] ${appName} Inquiry`)}&body=${encodeURIComponent(emailBody)}`
+        const mailtoLink = `mailto:support@zenithuslabs.com?subject=${encodeURIComponent(`[Support] ${appName} Inquiry`)}&body=${encodeURIComponent(emailBody)}`
         window.open(mailtoLink, '_blank')
         setFormData({ name: '', email: '', message: '' })
         setSelectedApp('')
@@ -89,7 +89,7 @@ const Support: React.FC = () => {
                     >
                         <div className="bg-neutral-900 rounded-3xl p-8 md:p-10 shadow-xl">
                             <h2 className="text-2xl font-bold text-white mb-2">{t.contactTitle}</h2>
-                            <p className="text-neutral-400 mb-8">zenithuslabs@gmail.com</p>
+                            <p className="text-neutral-400 mb-8">support@zenithuslabs.com</p>
 
                             <form onSubmit={handleSubmit} className="space-y-5">
                                 <div>

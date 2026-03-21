@@ -72,8 +72,8 @@ const Privacy: React.FC = () => {
                                                 ? '본 개인정보처리방침에 관한 문의사항은 아래 이메일로 연락해 주세요.'
                                                 : 'If you have any questions about this Privacy Policy, please contact us at:'}
                                             <br />
-                                            <a href="mailto:zenithuslabs@gmail.com" className="text-brand-600 font-semibold hover:underline">
-                                                zenithuslabs@gmail.com
+                                            <a href="mailto:privacy@zenithuslabs.com" className="text-brand-600 font-semibold hover:underline">
+                                                privacy@zenithuslabs.com
                                             </a>
                                         </p>
                                     </div>

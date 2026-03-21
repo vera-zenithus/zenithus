@@ -39,8 +39,8 @@ const Footer: React.FC = () => {
             <p className="text-neutral-500 text-sm leading-relaxed mb-6">
               {t.tagline1}<br />{t.tagline2}
             </p>
-            <a href="mailto:zenithuslabs@gmail.com" className="text-sm text-neutral-400 hover:text-brand-400 transition-colors">
-              zenithuslabs@gmail.com
+            <a href="mailto:hello@zenithuslabs.com" className="text-sm text-neutral-400 hover:text-brand-400 transition-colors">
+              hello@zenithuslabs.com
             </a>
           </div>
 

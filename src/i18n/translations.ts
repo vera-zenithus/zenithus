@@ -158,12 +158,12 @@ const translations = {
 
 제5조 (이용자의 권리 및 행사 방법)
 이용자는 언제든지 개인정보 조회, 수정, 삭제, 처리 정지를 요청할 수 있습니다.
-• 이메일: zenithuslabs@gmail.com
+• 이메일: privacy@zenithuslabs.com
 • 요청 후 10일 이내 처리됩니다.
 
 제6조 (개인정보 보호책임자)
 • 성명: ZenithUs Labs 개인정보 보호팀
-• 이메일: zenithuslabs@gmail.com
+• 이메일: privacy@zenithuslabs.com
 
 본 방침은 2026년 3월 15일부터 적용됩니다.`,
             },
@@ -193,10 +193,10 @@ const translations = {
 
 제5조 (이용자의 권리 및 행사 방법)
 이용자는 언제든지 개인정보 조회, 수정, 삭제, 처리 정지를 요청할 수 있습니다.
-• 이메일: zenithuslabs@gmail.com
+• 이메일: privacy@zenithuslabs.com
 
 제6조 (개인정보 보호책임자)
-• 이메일: zenithuslabs@gmail.com
+• 이메일: privacy@zenithuslabs.com
 
 본 방침은 2026년 3월 15일부터 적용됩니다.`,
             },
@@ -224,10 +224,10 @@ const translations = {
 
 제5조 (이용자의 권리 및 행사 방법)
 이용자는 언제든지 개인정보 조회, 수정, 삭제, 처리 정지를 요청할 수 있습니다.
-• 이메일: zenithuslabs@gmail.com
+• 이메일: privacy@zenithuslabs.com
 
 제6조 (개인정보 보호책임자)
-• 이메일: zenithuslabs@gmail.com
+• 이메일: privacy@zenithuslabs.com
 
 본 방침은 2026년 3월 15일부터 적용됩니다.`,
             },
@@ -442,12 +442,12 @@ Article 4 — Third-Party Sharing
 
 Article 5 — Your Rights
 You may request access, correction, deletion, or restriction of your personal data at any time.
-• Email: zenithuslabs@gmail.com
+• Email: privacy@zenithuslabs.com
 • Requests are processed within 10 business days.
 
 Article 6 — Contact
 • Privacy Officer: ZenithUs Labs Privacy Team
-• Email: zenithuslabs@gmail.com
+• Email: privacy@zenithuslabs.com
 
 This policy is effective as of March 15, 2026.`,
             },
@@ -477,10 +477,10 @@ Article 4 — Third-Party Sharing
 
 Article 5 — Your Rights
 You may request access, correction, deletion, or restriction of your data at any time.
-• Email: zenithuslabs@gmail.com
+• Email: privacy@zenithuslabs.com
 
 Article 6 — Contact
-• Email: zenithuslabs@gmail.com
+• Email: privacy@zenithuslabs.com
 
 This policy is effective as of March 15, 2026.`,
             },
@@ -508,10 +508,10 @@ Article 4 — Third-Party Sharing
 
 Article 5 — Your Rights
 You may request access, correction, deletion, or restriction of your data at any time.
-• Email: zenithuslabs@gmail.com
+• Email: privacy@zenithuslabs.com
 
 Article 6 — Contact
-• Email: zenithuslabs@gmail.com
+• Email: privacy@zenithuslabs.com
 
 This policy is effective as of March 15, 2026.`,
             },
